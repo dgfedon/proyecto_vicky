@@ -1,0 +1,12 @@
+/* NavBar */
+.container-navbar {
+    height: 15vh;
+}
+
+.container {
+    height: 15vh;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}

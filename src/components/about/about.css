@@ -1,0 +1,10 @@
+#container-about {
+    height: 80vh;
+}
+
+#container-about h2 {
+    font-size: 3rem;
+    line-height: 58px;
+    letter-spacing: 0.065em;
+    color: #E72176;
+}

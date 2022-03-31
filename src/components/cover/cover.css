@@ -1,5 +1,18 @@
 #container-coverpage {
     height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 255px;
+}
+
+#container-coverpage img {
+    width: 330px;
+    height: 330px;
+}
+
+#container-coverpage .title{
+    padding-left: 70px;
 }
 
 #container-coverpage p {

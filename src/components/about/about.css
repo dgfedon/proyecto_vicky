@@ -1,5 +1,6 @@
 #container-about {
     height: 80vh;
+    
 }
 
 #container-about h2 {
@@ -7,4 +8,67 @@
     line-height: 58px;
     letter-spacing: 0.065em;
     color: #E72176;
+    padding-bottom: 49px;
+}
+
+#container-about .main-p {
+    font-size: 24px;
+    width: 708px;
+    height: 290px;
+    padding-left: 70px;
+    
+}
+
+#container-about .main-p span{
+    color: #E72176;
+}
+
+#container-about .subcontainer-about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+#container-about .subcontainer-about img{
+    height: 320px;
+}
+
+#container-about .logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+
+#container-about .logos .img-cont {
+    padding: 100px;
+}
+
+#container-about .logos .img-cont p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    padding-top: 22px;
+}
+
+#container-about .logos .img-cont .pink-letters {
+    color:#E72176;
+}
+
+#container-about .logos .img-cont .blue-letters {
+    color: #54C8E8;
+}
+
+#container-about .logos .img-cont .yellow-letters {
+    color: #FFAF00;
+}
+
+#container-about .logos .img-cont .violet-letters {
+    color: #D48CC7;
+}
+
+#container-about .logos .img-cont .black-letters {
+    color: #4D4D4D;
 }

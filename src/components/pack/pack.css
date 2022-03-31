@@ -8,3 +8,10 @@
     letter-spacing: 0.065em;
     color: #54C8E8;
 }
+
+#container-pack .package {
+    width: 237px;
+    height: 416px;
+    border: 2px solid #D48CC7;
+    border-radius: 20px;
+}

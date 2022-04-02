@@ -1,12 +1,33 @@
 /* NavBar */
-.container-navbar {
-    height: 15vh;
-}
-
-.container {
-    height: 15vh;
+.container-navbar .container {
+    min-height: 10vh;
 }
 
 .navbar-collapse {
     flex-grow: 0 !important;
+}
+
+.bg-navbar {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 29px;
+    letter-spacing: 0.11em;
+    text-decoration-line: underline;
+    color: #4D4D4D;
+}
+
+.nav-link {
+    font-style: normal;
+    font-weight: 350;
+    font-size: 1.2rem;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.11em;
+    color: #4D4D4D;
 }

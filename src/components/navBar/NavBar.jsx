@@ -6,9 +6,9 @@ import './navbar.css';
 function NavBar() {
     return (
         <div className="container-navbar">
-            <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top">
+            <Navbar collapseOnSelect expand="lg" variant="light" fixed="top" className="bg-navbar">
                 <Container>
-                    <Navbar.Brand href="#home">Victoria Argarañaz</Navbar.Brand>
+                    <Navbar.Brand href="#home" className="text-decoration-underline">Victoria Argarañaz</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
@@ -19,7 +19,7 @@ function NavBar() {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            <Navbar style={{height: '10vh'}} />
+            <Navbar style={{minHeight: '10vh'}} />
         </div>
     )
 }

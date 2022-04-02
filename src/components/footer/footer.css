@@ -1,5 +1,5 @@
 #container-footer {
-    height: 70vh;
+    min-height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,16 +10,23 @@
     margin-bottom: 80px;
 }
 .foo-contact h4 {
+
+    font-style: normal;
+    font-weight: 300;
     font-size: 3rem;
     line-height: 58px;
+    text-align: center;
     letter-spacing: 0.065em;
     color: #4D4D4D;
     margin-bottom: 30px;
 }
 .foo-contact p {
+    font-style: normal;
+    font-weight: 400;
     font-size: 1.5rem;
     line-height: 29px;
     letter-spacing: 0.11em;
+    text-decoration-line: underline;
     color: #4D4D4D;
     margin-bottom: 30px;
 }
@@ -34,9 +41,11 @@
 }
 
 .foo--copy {
+    font-style: normal;
+    font-weight: 400;
     font-size: 1rem;
-    margin-top: 5px;
-    color: #4D4D4D;
     line-height: 22px;
     letter-spacing: 0.11em;
+    margin-top: 5px;
+    color: #4D4D4D;
 }

@@ -4,7 +4,7 @@ import './pack.css';
 
 function PackContainer() {
     return (
-        <div id="container-pack" className="mt-5">
+        <div id="container-pack">
             <h2>Paquetes</h2>
 
             <div className="paquetes">

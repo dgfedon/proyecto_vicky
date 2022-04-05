@@ -111,9 +111,10 @@
         line-height: 29px;
         letter-spacing: 0.11em;
         text-align: start;
-        width: 708px;
+        /* width: 708px; */
         /* height: 290px; */
-        padding-left: 70px;
+        padding-left: 50px;
+        padding-right: 10px;
     }
     
     #container-about .main-p span{
@@ -128,7 +129,7 @@
     }
     
     #container-about .subcontainer-about img{
-        height: 320px;
+        height: 300px;
     }
     
     #container-about .logos {

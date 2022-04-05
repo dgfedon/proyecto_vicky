@@ -29,6 +29,7 @@
     /* Pack */
     #container-pack .paquetes {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         margin: 40px 0px;
     }
@@ -39,7 +40,7 @@
         border-radius: 20px;
         box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.25);
         padding: 10px;
-        margin: 0px 10px;
+        margin: 15px 0px;
     }
     #container-pack .package h3 {
         font-style: normal;
@@ -175,6 +176,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 3rem;
     }
     #container-pack h2 {
         font-style: normal;

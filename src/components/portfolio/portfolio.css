@@ -1,5 +1,5 @@
 #container-portfolio {
-    height: 80vh;
+    min-height: 80vh;
 }
 
 #container-portfolio h2 {
@@ -10,10 +10,11 @@
     text-align: center;
     letter-spacing: 0.065em;
     color: #E72176;
-    padding-top: 126px;
+    padding-top: 110px;
 }
   #carousel-portfolio {
     margin-top: 6%;
+    margin-bottom: 6%;
   }
   #carousel-portfolio .item {
     text-align: center;

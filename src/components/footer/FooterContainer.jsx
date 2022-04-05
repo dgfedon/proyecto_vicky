@@ -6,6 +6,7 @@ import './footer.css';
 function FooterContainer() {
     return (
         <div id="container-footer">
+            {/* <img src="/assets/backgrounds/Recurso_2circulo.png" className="bg-circle" alt="" /> */}
             <div className="foo-contact">
                 <h4>Contacto</h4>
                 <p>vickyarga99@gmail.com</p>
@@ -34,6 +35,7 @@ function FooterContainer() {
             </div>
             <figure className="foo-line"></figure>
             <span className="foo--copy">Todos los derechos reservados</span>
+            {/* <img src="/assets/backgrounds/group_1.png" className="bg-group-1" alt="" /> */}
         </div>
     )
 }

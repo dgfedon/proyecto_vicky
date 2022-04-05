@@ -49,3 +49,18 @@
     margin-top: 5px;
     color: #4D4D4D;
 }
+
+.bg-circle {
+    position: absolute;
+    width: 236px;
+    height: 236px;
+    left: 20px;
+}
+
+.bg-group-1 {
+    display: block;
+    position: absolute;
+    width: 282px;
+    height: 337px;
+    left: 1250px;
+}

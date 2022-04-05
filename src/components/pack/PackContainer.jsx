@@ -4,7 +4,7 @@ import './pack.css';
 
 function PackContainer() {
     return (
-        <div id="container-pack">
+        <div id="container-pack" className="mt-5">
             <h2>Paquetes</h2>
 
             <div className="paquetes">
@@ -26,7 +26,7 @@ function PackContainer() {
                         </ul>
                     </div>
                     <button className="package-btn w-100" style={{background: '#FFAF00'}}>
-                        <span>Contactar</span>
+                        <a rel="noopener noreferrer" href="mailto:vickyarga99@gmail.com?Subject=Me%20interesa%20el%20paquete%201" target="_blank">Contactar</a>
                     </button>
                 </div>
 
@@ -44,7 +44,7 @@ function PackContainer() {
                         </ul>
                     </div>
                     <button className="package-btn w-100" style={{background: '#E72176'}}>
-                        <span>Contactar</span>
+                        <a rel="noopener noreferrer" href="mailto:vickyarga99@gmail.com?Subject=Me%20interesa%20el%20paquete%202" target="_blank">Contactar</a>
                     </button>
                 </div>
 
@@ -62,7 +62,7 @@ function PackContainer() {
                         </ul>
                     </div>
                     <button className="package-btn w-100" style={{background: '#54C8E8'}}>
-                        <span>Contactar</span>
+                        <a rel="noopener noreferrer" href="mailto:vickyarga99@gmail.com?Subject=Me%20interesa%20el%20paquete%203" target="_blank">Contactar</a>
                     </button>
                 </div>
 
@@ -78,13 +78,13 @@ function PackContainer() {
                         </ul>
                     </div>
                     <button className="package-btn w-100" style={{background: '#D48CC7'}}>
-                        <span>Contactar</span>
+                        <a href="mailto:vickyarga99@gmail.com?Subject=Me%20interesa%20el%20paquete%204">Contactar</a>
                     </button>
                 </div>
 
             </div>
 
-            <p>Pulsa aquí para crear tu propio paquete</p>
+            <a rel="noopener noreferrer" href="mailto:vickyarga99@gmail.com?Subject=Crear%20mi%20propio%20paquete" target="_blank" className="pack-link">Pulsa aquí para crear tu propio paquete</a>
         </div>
     )
 }

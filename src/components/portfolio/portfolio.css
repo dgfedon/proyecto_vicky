@@ -55,6 +55,6 @@
 @media only screen and (min-width:1240px) {
   /* Background */
   .bg-portfolio {
-    background: url('/public/assets/backgrounds/animation_500_l119t4iv_1.svg') left top no-repeat;
+    background: url('/public/assets/backgrounds/animation_blue.gif') -20% -50% no-repeat;
   }
 }

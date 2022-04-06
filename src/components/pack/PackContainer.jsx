@@ -4,7 +4,7 @@ import './pack.css';
 
 function PackContainer() {
     return (
-        <div id="container-pack">
+        <div id="container-pack" className="bg-pack">
             <h2>Paquetes</h2>
 
             <div className="paquetes">

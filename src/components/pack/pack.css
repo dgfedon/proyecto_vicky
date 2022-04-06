@@ -24,6 +24,7 @@
         letter-spacing: 0.11em;
         text-decoration-line: underline;
         color: #4D4D4D;
+        padding: 0px 20px;
     }
 
     /* Pack */
@@ -92,6 +93,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 60px;
     }
     #container-pack h2 {
         font-style: normal;
@@ -114,6 +116,7 @@
     /* Pack */
     #container-pack .paquetes {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         margin: 40px 0px;
     }
@@ -124,7 +127,7 @@
         border-radius: 20px;
         box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.25);
         padding: 10px;
-        margin: 0px 10px;
+        margin: 10px 10px;
     }
     #container-pack .package h3 {
         font-style: normal;
@@ -178,6 +181,11 @@
         align-items: center;
         margin-top: 3rem;
     }
+
+    /* Background */
+    .bg-pack {
+        background: url('/public/assets/backgrounds/animation_500_l11a73km\ _1.svg') right bottom no-repeat;
+    }
     #container-pack h2 {
         font-style: normal;
         font-weight: 300;
@@ -194,6 +202,7 @@
         letter-spacing: 0.11em;
         text-decoration-line: underline;
         color: #4D4D4D;
+        margin-bottom: 122px;
     }
 
     /* Pack */

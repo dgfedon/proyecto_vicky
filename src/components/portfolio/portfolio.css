@@ -49,4 +49,12 @@
     transform: translate3d(0px, -50%, 0px) scale(0.3);
     transform-origin: 50% 50% 0;
     transition: all 250ms ease-out 0s;
-  } 
+  }
+
+/* Vista desktop */
+@media only screen and (min-width:1240px) {
+  /* Background */
+  .bg-portfolio {
+    background: url('/public/assets/backgrounds/animation_500_l119t4iv_1.svg') left top no-repeat;
+  }
+}

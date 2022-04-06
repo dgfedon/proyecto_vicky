@@ -38,7 +38,7 @@ const PorfolioContainer = () => {
 
     return (
 
-            <div id="container-portfolio">
+            <div id="container-portfolio" className="bg-portfolio">
                 <h2>Portafolio</h2>
                 <div className="row">
                     <div className="col-md-12 mb-4">

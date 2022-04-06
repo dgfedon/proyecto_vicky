@@ -5,7 +5,7 @@ import './cover.css';
 
 function CoverPageContainer() {
     return (
-        <div id="container-coverpage">
+        <div id="container-coverpage" className="bg-cover">
             <img src="/assets/logos/mainLogo.png" alt="" />
             <div className="title">
                 <p>¡Hola! soy  Victoria</p>

@@ -6,6 +6,11 @@
     align-items: center;
 }
 
+/* Background */
+.bg-foo {
+    background: url('/public/assets/backgrounds/Recurso_2circulo.png') left top no-repeat, url('/public/assets/backgrounds/group_1.png') right bottom no-repeat;
+}
+
 .foo-contact {
     margin-bottom: 80px;
 }
@@ -50,17 +55,10 @@
     color: #4D4D4D;
 }
 
-.bg-circle {
-    position: absolute;
-    width: 236px;
-    height: 236px;
-    left: 20px;
-}
-
-.bg-group-1 {
-    display: block;
-    position: absolute;
-    width: 282px;
-    height: 337px;
-    left: 1250px;
+/* Vista mobile */
+@media only screen and (min-width:0px) and (max-width:767px) {
+    /* Background */
+    .bg-foo {
+        background: url('/public/assets/backgrounds/group_1.png') right bottom no-repeat;
+    }
 }

@@ -66,7 +66,6 @@
     
     #container-about .logos {
         display: flex;
-        flex-direction: row-reverse;
         flex-wrap: wrap;
         justify-content: center;
         padding-top: 50px;
@@ -102,6 +101,7 @@
         letter-spacing: 0.065em;
         color: #E72176;
         padding-bottom: 49px;
+        margin-top: 120px;
     }
     
     #container-about .main-p {
@@ -111,8 +111,6 @@
         line-height: 29px;
         letter-spacing: 0.11em;
         text-align: start;
-        /* width: 708px; */
-        /* height: 290px; */
         padding-left: 50px;
         padding-right: 10px;
     }
@@ -134,13 +132,13 @@
     
     #container-about .logos {
         display: flex;
-        flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
         padding-top: 50px;
     }
     
     #container-about .logos .img-cont {
-        padding: 50px;
+        padding: 20px;
     }
     
     #container-about .logos .img-cont p{
@@ -169,6 +167,7 @@
         letter-spacing: 0.065em;
         color: #E72176;
         padding-bottom: 49px;
+        margin-top: 120px;
     }
     
     #container-about .main-p {
